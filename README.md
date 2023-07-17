@@ -2,7 +2,7 @@
 
 ## Introduction
 
-An ABI breaking change in library can lead to application undefined behavior if the application is not correctly recompiled and linked to the updated library.
+An ABI breaking change in library can lead to the dependent application or library undefined behavior if they are not correctly recompiled and linked to the updated library.
 
 ## ABI Breaking Change Demo
 
