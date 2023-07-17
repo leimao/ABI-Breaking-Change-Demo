@@ -1,0 +1,26 @@
+Vtable for Shape
+Shape::_ZTV5Shape: 3 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI5Shape)
+16    (int (*)(...))__cxa_pure_virtual
+
+Class Shape
+   size=8 align=8
+   base size=8 base align=8
+Shape (0x0x7f77aab6d420) 0 nearly-empty
+    vptr=((& Shape::_ZTV5Shape) + 16)
+
+Vtable for Rectangle
+Rectangle::_ZTV9Rectangle: 3 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI9Rectangle)
+16    (int (*)(...))Rectangle::area
+
+Class Rectangle
+   size=24 align=8
+   base size=24 base align=8
+Rectangle (0x0x7f77aaa0e340) 0
+    vptr=((& Rectangle::_ZTV9Rectangle) + 16)
+Shape (0x0x7f77aab6d540) 0 nearly-empty
+      primary-for Rectangle (0x0x7f77aaa0e340)
+
