@@ -8,21 +8,21 @@ Shape::_ZTV5Shape: 4 entries
 Class Shape
    size=8 align=8
    base size=8 base align=8
-Shape (0x0x7f8e3556d420) 0 nearly-empty
+Shape (0x0x7f84fbb6d420) 0 nearly-empty
     vptr=((& Shape::_ZTV5Shape) + 16)
 
 Vtable for Rectangle
 Rectangle::_ZTV9Rectangle: 4 entries
 0     (int (*)(...))0
 8     (int (*)(...))(& _ZTI9Rectangle)
-16    (int (*)(...))Rectangle::area
-24    (int (*)(...))Rectangle::perimeter
+16    (int (*)(...))Rectangle::perimeter
+24    (int (*)(...))Rectangle::area
 
 Class Rectangle
    size=24 align=8
    base size=24 base align=8
-Rectangle (0x0x7f8e3540e340) 0
+Rectangle (0x0x7f84fba0e340) 0
     vptr=((& Rectangle::_ZTV9Rectangle) + 16)
-Shape (0x0x7f8e3556d540) 0 nearly-empty
-      primary-for Rectangle (0x0x7f8e3540e340)
+Shape (0x0x7f84fbb6d540) 0 nearly-empty
+      primary-for Rectangle (0x0x7f84fba0e340)
 

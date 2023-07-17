@@ -1,10 +1,10 @@
-# ABI Change Demo
+# ABI Breaking Change Demo
 
 ## Introduction
 
 An ABI breaking change in library can lead to application undefined behavior if the application is not correctly recompiled and linked to the updated library.
 
-## ABI Change Demo
+## ABI Breaking Change Demo
 
 ```bash
 # Build library V1.

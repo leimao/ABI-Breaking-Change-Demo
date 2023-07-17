@@ -4,11 +4,11 @@
 class Shape
 {
 public:
+    // Adding the new method here breaks the ABI.
+    virtual double perimeter() const = 0;
+    virtual double area() const = 0;
     // Adding the new method here does not break the ABI.
     // virtual double perimeter() const = 0;
-    virtual double area() const = 0;
-    // Adding the new method here instead breaks the ABI.
-    virtual double perimeter() const = 0;
 };
 
 class Rectangle : public Shape
